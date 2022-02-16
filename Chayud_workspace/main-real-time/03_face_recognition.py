@@ -26,7 +26,7 @@ id = 2 #two persons (e.g. Jacob, Jack)
 names = ['','Chayud','Jack']  #key in names, start from the second place, leave first empty
 
 # Initialize and start realtime video capture
-cam = cv2.VideoCapture(1)#setup your camera(0 or 1)
+cam = cv2.VideoCapture(0)#setup your camera(0 or 1)
 cam.set(3, 640) # set video widht
 cam.set(4, 480) # set video height
 

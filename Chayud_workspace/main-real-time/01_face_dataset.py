@@ -12,9 +12,9 @@ Developed by Marcelo Rovai - MJRoBot.org @ 21Feb18
 import cv2
 import os
 
-cam = cv2.VideoCapture(1) #setup your camera(0 or 1)
-cam.set(3, 640) # set video width
-cam.set(4, 480) # set video height
+cam = cv2.VideoCapture(0) #setup your camera(0 or 1)
+cam.set(3, 1920) # set video width
+cam.set(4, 1080) # set video height
 
 #make sure 'haarcascade_frontalface_default.xml' is in the same folder as this code
 face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
